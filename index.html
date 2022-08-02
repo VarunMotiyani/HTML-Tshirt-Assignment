@@ -6,12 +6,24 @@
 </head>
 <body style="background-image: linear-gradient(to bottom right, rgba(181, 176, 160, 0.956), rgb(131, 172, 174));">>
 <center>
- <form action="" enctype="multipart/form-data" method="put">
-<h3>Order Details</h3>
  
+<header><b>Hello There! Welcome</b></header>
+<form action="" enctype="multipart/form-data" method="put">
+<h3><strong>Order Details</strong></h3>
+<details>
+
+    <summary>Click to read more</summary>
+  
+    <p>You'll get a customized well designed tshirt here. Scroll down for more. Thank you! </p>
+  
+  </details>
  <p>Your Order:</p>
-<img width="250px" src="t_shirt.webp" alt=""><br><br>
-<label for="tagline">Enter Tagline:</label><br>
+ <figure>
+    <img src="t_shirt.webp" alt="My Image" width="250">
+    <figcaption>Demo Image</figcaption>
+  </figure>
+<br><br>
+ <label for="tagline">Enter Tagline:</label><br>
 <input type="text" name="tagline" id="tagline"><br><br> <label for="color">Choose Color:</label><br>
 <input type="radio" id="red" name="color" value="Red"> <label for="red">Red</label><br>
 <input type="radio" id="white" name="color" value="White"> <label for="white">White</label><br>
@@ -41,6 +53,7 @@
 <label for="address4">Enter Pincode</label>
 <input type="number" name="address4" id="address4"><br><br>
 <button type="submit">Place Order</button>
+<footer>Thank You!</footer>
   </center>
 </form> </body>
 </html>
